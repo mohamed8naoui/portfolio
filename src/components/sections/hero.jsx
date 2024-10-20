@@ -31,7 +31,10 @@ function Hero() {
               Casablanca, Morocco{" "}
               <ReactCountryFlag countryCode="MA" svg title="MA" />
             </p>
-            <RainbowButton className="px-10 py-6 text-2xl font-normal">
+            <RainbowButton
+              href="mailto:email@example.com?subject=Hiring Inquiry"
+              className="px-10 py-6 text-2xl font-normal"
+            >
               Hire Me
             </RainbowButton>
           </div>

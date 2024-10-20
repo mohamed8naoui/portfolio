@@ -1,5 +1,7 @@
+import { Link } from "lucide-react";
 import Container from "../container";
 import { BackgroundBeamsWithCollision } from "../ui/background-beams-with-collision";
+import { LinkPreview } from "../ui/link-preview";
 import ShineBorder from "../ui/shine-border";
 import Title from "../ui/title";
 import { FaCode, FaCartPlus, FaCameraRetro } from "react-icons/fa";
@@ -26,6 +28,22 @@ function Services() {
               <p className="text-center dark:text-white/85 text-black/85">
                 Building visually appealing and high-performance websites to
                 enhance your online presence.
+              </p>
+              <p className="z-10 text-center">
+                i've built couples of websites like{" "}
+                <LinkPreview
+                  url="https://www.fa2ida.blog/"
+                  className="font-bold"
+                >
+                  Fa2ida
+                </LinkPreview>{" "}
+                and{" "}
+                <LinkPreview
+                  url="https://tailwindflex.com/storage/thumbnails/simple-coming-soon-page-2/canvas.min.webp?v=1"
+                  className="font-bold"
+                >
+                  Store
+                </LinkPreview>
               </p>
               <p className="dark:text-white/85 text-black/85 text-center">
                 Tools : Wordpress, Blogger

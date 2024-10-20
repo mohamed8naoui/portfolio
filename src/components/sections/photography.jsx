@@ -1,6 +1,7 @@
 "use client";
 import Container from "../container";
 import BlurFade from "../ui/blur-fade";
+import MoreMessage from "../ui/more-message";
 import Title from "../ui/title";
 import { useRef } from "react";
 
@@ -97,6 +98,7 @@ function Photography() {
             />
           </BlurFade>
         </div>
+        <MoreMessage>More photos coming soon...</MoreMessage>
         <audio ref={audioRef} src="/click.wav"></audio>
       </div>
     </Container>

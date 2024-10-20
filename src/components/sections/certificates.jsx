@@ -1,5 +1,6 @@
 import Container from "../container";
 import { DirectionAwareHover } from "../ui/direction-aware-hover";
+import MoreMessage from "../ui/more-message";
 import Title from "../ui/title";
 
 function Certificates() {
@@ -13,7 +14,7 @@ function Certificates() {
             highlight my dedication to mastering my craft.
           </p>
         </div>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-20 relative">
+        <div className="grid grid-cols-1 md:grid-cols-2 place-items-center  gap-20 relative">
           <DirectionAwareHover className="md:size-full" imageUrl="/cert1.jpg">
             <p className="font-bold text-xl">Google Certificate</p>
             <p className="font-normal text-sm">
@@ -27,6 +28,7 @@ function Certificates() {
             </p>
           </DirectionAwareHover>
         </div>
+        <MoreMessage>More Certificates coming soon...</MoreMessage>
       </div>
     </Container>
   );
