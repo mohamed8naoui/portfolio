@@ -13,8 +13,8 @@ function Services() {
         <div>
           <Title>What I Offer</Title>
           <p className="text-lg md:text-2xl font-normal text-muted-foreground leading-9">
-            I'm here to make waves in the digital space! Dive into my offerings
-            and let's make some magic happen!
+            I&apos;m here to make waves in the digital space! Dive into my
+            offerings and let&apos;s make some magic happen!
           </p>
         </div>
         <div className="grid grid-cols-1  md:grid-cols-3 gap-10">
@@ -30,7 +30,7 @@ function Services() {
                 enhance your online presence.
               </p>
               <p className="z-10 text-center">
-                i've built couples of websites like{" "}
+                i&apos;ve built couples of websites like{" "}
                 <LinkPreview
                   url="https://www.fa2ida.blog/"
                   className="font-bold"
