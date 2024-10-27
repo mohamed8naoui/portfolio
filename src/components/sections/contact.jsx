@@ -8,9 +8,9 @@ function Contact() {
     <Container>
         <div className="space-y-8  p-5 md:p-0" id="certificates">
         <div>
-          <Title>Let's Connect!</Title>
+          <Title>Let&apos;s Connect!</Title>
           <p className="text-lg md:text-2xl font-normal text-muted-foreground leading-9">
-          I'm always eager to collaborate and share ideas. Whether you have questions or want to discuss potential projects, feel free to reach out. Let's explore how we can work together!
+          I&apos;m always eager to collaborate and share ideas. Whether you have questions or want to discuss potential projects, feel free to reach out. Let's explore how we can work together!
           </p>
         </div>
         <div>
