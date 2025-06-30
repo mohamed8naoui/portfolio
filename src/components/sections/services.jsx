@@ -72,7 +72,7 @@ function Services() {
               className="size-full bg-transparent dark:bg-transparent border"
             >
               <FaCameraRetro className="text-7xl" />
-              <span className="text-2xl">Photography</span>
+              <span className="text-2xl">Photography & Film Making</span>
               <p className="text-center dark:text-white/85 text-black/85">
                 Capturing moments and creating stunning visuals for personal and
                 commercial use.
