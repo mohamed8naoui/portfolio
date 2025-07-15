@@ -87,7 +87,7 @@ function Services() {
           </div>
           <div className="grid grid-cols-1 md:grid-cols-4 gap-14">
             {skills.map((skill) => (
-              <SkillItem skill={skill} />
+              <SkillItem key={skill.skill_name} skill={skill} />
             ))}
           </div>
         </div>

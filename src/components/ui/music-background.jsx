@@ -76,4 +76,7 @@ const BackgroundMusic = forwardRef(({ src = "/background.mp3" }, ref) => {
   );
 });
 
+BackgroundMusic.displayName = "BackgroundMusic";
+
+
 export default BackgroundMusic;

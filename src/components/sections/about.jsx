@@ -65,12 +65,12 @@ function About() {
       <Container className="mb-0">
         <div id="about">
           <p className={cn("about-text relative", oswald.className)}>
-            I'm Mohamed Naoui, a 27 year old photographer and web developer from
-            Casablanca, Morocco. I'm passionate about capturing moments through
+            I&apos;m Mohamed Naoui, a 27 year old photographer and web developer from
+            Casablanca, Morocco. I&apos;m passionate about capturing moments through
             my lens and building websites on platforms like WordPress. In
             addition to photography, I sell digital products and am currently
             studying digital marketing to enhance my skills and grow my
-            business. Whether it's behind the camera or on the web, I'm
+            business. Whether it&apos;s behind the camera or on the web, I&apos;m
             dedicated to creating impactful content and experiences.
           </p>
         </div>
