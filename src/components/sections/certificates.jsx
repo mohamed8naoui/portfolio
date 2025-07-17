@@ -5,11 +5,13 @@ import Title from "../ui/title";
 
 function Certificates() {
   return (
-    <Container>
+    <div className="bg-black">
+
+    <Container className="m-0">
       <div className="space-y-8  p-5 md:p-0" id="certificates">
         <div>
           <Title>Equipped for Success!</Title>
-          <p className="text-lg md:text-2xl font-normal text-muted-foreground leading-9">
+          <p className="text-lg md:text-2xl font-normal text-white leading-9">
             Equipped with knowledge and skills! Dive into the certificates that
             highlight my dedication to mastering my craft.
           </p>
@@ -31,6 +33,7 @@ function Certificates() {
         <MoreMessage>More Certificates coming soon...</MoreMessage>
       </div>
     </Container>
+    </div>
   );
 }
 

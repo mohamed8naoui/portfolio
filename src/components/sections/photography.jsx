@@ -12,7 +12,7 @@ function Photography() {
         <div className="space-y-8 p-5 md:p-0" id="photography">
           <div>
             <Title>Photos Taking by me</Title>
-            <p className="text-lg md:text-2xl font-normal text-muted-foreground leading-9">
+            <p className="text-lg md:text-2xl font-normal text-white leading-9">
               Browse through some of my favorite shots. See the world through my
               lens!
             </p>

@@ -25,15 +25,17 @@ function Hero() {
 
   useGSAP(() => {
     document.body.classList.add("noscroll");
+
     const resetStates = () => {
       gsap.set(
-        ".first-name, .last-name, .intro-paragraph, .btn-enter, .hero-firstname, .hero-lastname",
+        ".hero-firstname, .hero-lastname",
         {
           opacity: 0,
           yPercent: 100,
         }
       );
     };
+    
 
     const UIAnimation = () => {
       const tl = gsap.timeline();
@@ -41,23 +43,23 @@ function Hero() {
       if (!isMobile) {
         tl.to(".first-name", {
           opacity: 1,
-          yPercent: 0,
+          y: 0,
         });
 
         tl.to(".last-name", {
           opacity: 1,
-          yPercent: 0,
+          y: 0,
         });
       }
 
       tl.to(".intro-paragraph", {
         opacity: 1,
-        yPercent: 0,
+        y: 0,
       });
 
       tl.to(".btn-enter", {
         opacity: 1,
-        yPercent: 0,
+        y: 0,
       });
 
       return tl;
@@ -229,14 +231,14 @@ function Hero() {
 
       <div className={cn("preloader", spaceGrotesk.className)}>
         <div className="overflow-hidden">
-          <h1 className="first-name">Mohamed</h1>
+          <h1 className="first-name translate-y-[100%]">Mohamed</h1>
         </div>
 
         <div className="text-center space-y-5">
           <div className="overflow-hidden">
-            <p className="intro-paragraph">Welcome to my portfolio</p>
+            <p className="intro-paragraph translate-y-[100%]">Welcome to my portfolio</p>
           </div>
-          <button className="btn-enter" onClick={resumeAnimation}>
+          <button className="btn-enter translate-y-[100%] opacity-0" onClick={resumeAnimation}>
             <div className="flex flex-col gap-5">
               <span>ENTER EXPERIENCE</span>
               <span>ENTER EXPERIENCE</span>
@@ -245,7 +247,7 @@ function Hero() {
         </div>
 
         <div className="overflow-hidden self-end">
-          <h1 className="last-name">Naoui</h1>
+          <h1 className="last-name translate-y-[100%]">Naoui</h1>
         </div>
       </div>
 

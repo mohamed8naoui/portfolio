@@ -11,7 +11,8 @@ import Container from "../container";
 
 function Footer() {
   return (
-    <Container className="mb-0">
+    <div className="bg-black">
+    <Container className="my-0 pt-36">
       <footer className="py-5 md:py-0 md:h-[5rem] border-t border-slate-800 flex items-center justify-between flex-col gap-5 md:flex-row">
         <div className="flex gap-5">
           <a
@@ -43,10 +44,11 @@ function Footer() {
           </a>
         </div>
         <div>
-          <p>@ {new Date().getFullYear()} Mohamed Naoui 🥰</p>
+          <p className="text-white">@ {new Date().getFullYear()} Mohamed Naoui 🥰</p>
         </div>
       </footer>
     </Container>
+    </div>
   );
 }
 
