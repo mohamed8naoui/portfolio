@@ -6,7 +6,7 @@ import ContactForm from '../contact-form'
 function Contact() {
   return (
     <div className="bg-black">
-    <Container className="my-0 pt-36">
+    <Container className="my-0 pt-36 pb-10">
         <div className="space-y-8  p-5 md:p-0" id="certificates">
         <div>
           <Title>Let&apos;s Connect!</Title>

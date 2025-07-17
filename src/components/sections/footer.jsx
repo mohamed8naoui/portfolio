@@ -12,7 +12,7 @@ import Container from "../container";
 function Footer() {
   return (
     <div className="bg-black">
-    <Container className="my-0 pt-36">
+    <Container className="my-0 pt-10">
       <footer className="py-5 md:py-0 md:h-[5rem] border-t border-slate-800 flex items-center justify-between flex-col gap-5 md:flex-row">
         <div className="flex gap-5">
           <a
